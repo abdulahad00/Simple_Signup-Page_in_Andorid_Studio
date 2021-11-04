@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+android:background="@color/design_default_color_secondary"         >
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+
+     android:text="Sign up"
+    android:textSize="30sp"
+     android:textColor="@color/black"
+     >
+ </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:text="First Name:"
+                android:textColor="@color/black"
+                android:textSize="23sp">
+            </TextView>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp"
+            >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Last Name:"
+                android:textColor="@color/black"
+                android:textSize="23sp">
+            </TextView>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            >
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:text="Passwaord:"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+
+                >
+            </TextView>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:password="true"
+                >
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </LinearLayout>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Signup"
+             android:textSize="15dp"
+
+             >
+         </Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
